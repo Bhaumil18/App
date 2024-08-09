@@ -1,0 +1,43 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .navbar
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: aquamarine;
+    position: fixed; 
+    top: 0;
+}
+
+.scroll-container
+{
+    background-color: aqua;
+    width: 100vw;
+    height: 20px;
+}
+
+.scrollbar
+{ 
+    height: 20px;
+    background-color :yellow;
+}
+
+.container .content
+{
+    width: 60vw;
+    background-color: bisque;
+    margin-top: 150px;
+    
+}
+
+.container .content .item
+{
+    border: 1px solid black;
+}
